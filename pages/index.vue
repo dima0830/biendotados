@@ -100,6 +100,4 @@
   </div>
 </template>
 
-<script setup lang="ts">
-console.log('Home page loaded');
-</script>
+<script setup lang="ts"></script>
