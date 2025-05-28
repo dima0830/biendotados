@@ -101,4 +101,5 @@
 </template>
 
 <script setup lang="ts">
+console.log('Home page loaded');
 </script>
