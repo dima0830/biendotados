@@ -1,6 +1,16 @@
-# Nuxt Minimal Starter
+# Bordados Profesionales - Bien Dotados
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Proyecto de Nuxt 3 para la empresa de bordados profesionales Bien Dotados.
+
+## Configuración de Desarrollo
+
+Este proyecto incluye:
+
+- **ESLint** para análisis de código
+- **Prettier** para formateo automático
+- **Configuración de VSCode** optimizada
+- **Tailwind CSS** para estilos
+- **TypeScript** para desarrollo tipado
 
 ## Setup
 
@@ -18,6 +28,31 @@ yarn install
 
 # bun
 bun install
+```
+
+## Scripts Disponibles
+
+### Desarrollo
+
+```bash
+npm run dev          # Iniciar servidor de desarrollo
+```
+
+### Build y Producción
+
+```bash
+npm run build        # Construir para producción
+npm run generate     # Generar sitio estático
+npm run preview      # Previsualizar build de producción
+```
+
+### Linting y Formateo
+
+```bash
+npm run lint         # Ejecutar ESLint
+npm run lint:fix     # Ejecutar ESLint y corregir automáticamente
+npm run format       # Formatear código con Prettier
+npm run format:check # Verificar formato del código
 ```
 
 ## Development Server

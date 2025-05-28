@@ -38,48 +38,67 @@
 
     <!-- Sección de Beneficios -->
     <section class="py-12 bg-gray-100">
-  <div class="max-w-7xl mx-auto px-4">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 border border-gray-300 rounded-xl p-4 bg-white">
-      <div class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition">
-        <img src="/assets/img/imagen.jpg" alt="Tu marca en cada detalle" class="w-[52px] h-[52px] mb-4 border border-red-200" />
-        <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
-        <p class="text-gray-600 text-sm text-center">Personalización total con logos, nombres y más.</p>
+      <div class="max-w-7xl mx-auto px-4">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 border border-gray-300 rounded-xl p-4 bg-white"
+        >
+          <div
+            class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition"
+          >
+            <img
+              src="/assets/img/imagen.jpg"
+              alt="Tu marca en cada detalle"
+              class="w-[52px] h-[52px] mb-4 border border-red-200"
+            />
+            <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
+            <p class="text-gray-600 text-sm text-center">
+              Personalización total con logos, nombres y más.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition"
+          >
+            <img
+              src="/assets/img/iconos/marca.svg"
+              alt="Tu marca en cada detalle"
+              class="w-16 h-16 mb-4"
+            />
+            <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
+            <p class="text-gray-600 text-sm text-center">
+              Personalización total con logos, nombres y más.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition"
+          >
+            <img
+              src="/assets/img/iconos/marca.svg"
+              alt="Tu marca en cada detalle"
+              class="w-16 h-16 mb-4"
+            />
+            <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
+            <p class="text-gray-600 text-sm text-center">
+              Personalización total con logos, nombres y más.
+            </p>
+          </div>
+          <div
+            class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition"
+          >
+            <img
+              src="/assets/img/iconos/marca.svg"
+              alt="Tu marca en cada detalle"
+              class="w-16 h-16 mb-4"
+            />
+            <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
+            <p class="text-gray-600 text-sm text-center">
+              Personalización total con logos, nombres y más.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition">
-        <img src="/assets/img/iconos/marca.svg" alt="Tu marca en cada detalle" class="w-16 h-16 mb-4" />
-        <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
-        <p class="text-gray-600 text-sm text-center">Personalización total con logos, nombres y más.</p>
-      </div>
-      <div class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition">
-        <img src="/assets/img/iconos/marca.svg" alt="Tu marca en cada detalle" class="w-16 h-16 mb-4" />
-        <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
-        <p class="text-gray-600 text-sm text-center">Personalización total con logos, nombres y más.</p>
-      </div>
-      <div class="p-6 rounded-xl shadow flex flex-col items-center border border-gray-200 hover:border-gray-400 transition">
-        <img src="/assets/img/iconos/marca.svg" alt="Tu marca en cada detalle" class="w-16 h-16 mb-4" />
-        <h3 class="text-lg font-semibold mb-2">Tu marca en cada detalle</h3>
-        <p class="text-gray-600 text-sm text-center">Personalización total con logos, nombres y más.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
+    </section>
   </div>
 </template>
 
-<script>
-import { Swiper, SwiperSlide } from "swiper/vue";
-import "swiper/swiper-bundle.css";
-
-export default {
-  components: {
-    Swiper,
-    SwiperSlide,
-  },
-};
+<script setup lang="ts">
 </script>
-
-<style>
-/* Puedes agregar estilos personalizados aquí */
-</style>
